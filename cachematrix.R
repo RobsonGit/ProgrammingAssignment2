@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-# Two functions below create an object that stores the matrix and cache its inverse.
+# Two functions below create an object that stores the matrix and caches its inverse.
 
 ## Write a short comment describing this function
 # The function makeCacheMatrix creates an object (a list) containing 4 functions that do the following:
@@ -19,7 +19,7 @@
 # Ad.3. a$getinverse()
 # Ad.4. a$setinverse(matrix(c(0,0,0,0),2,2)) - argument inside brackets is just an example
 # Notes:
-# a) a$getinverse() requires earlier finding of the inverse of matrix. It is NULL until cacheSolve() is run.
+# a) a$getinverse() requires earlier finding of the inverse of matrix. It is NULL until cacheSolve is run.
 # b) only square matrices (n rows x n columns) are invertible. That comes from math.
 # c) if you set the inverse matrix with setinverse() function then your correct result calculated with cacheSolve may be corrupted.
 # d) <<- operator allows to assign a value to an object in an environment that is different from the current environment.
